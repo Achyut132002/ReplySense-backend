@@ -1,0 +1,64 @@
+# Maven target folder (compiled classes and other build artifacts)
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### Spring Tools Suite (STS) ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# Spring Boot application properties (do not track sensitive files)
+src/main/resources/application.properties
+
+# Logs
+logs/
+*.log
+
+# Environment variables
+.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Maven wrapper
+.mvn/
+
+# Gradle wrapper
+.gradle/
+
+# Eclipse files
+.classpath
+.project
+.settings/
+
+# IDE-specific
+.idea/
+*.iml
+
+
